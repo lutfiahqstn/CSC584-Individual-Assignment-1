@@ -42,6 +42,7 @@ d. Edit Profile
 This page allows users to modify and update their existing personal information.
 
 
+
 4. Technologies Used
 The following technologies and tools were used to develop this application:
 
@@ -51,7 +52,8 @@ The following technologies and tools were used to develop this application:
 - Java Servlet: Processing form submissions and profile updates
 - JSP: Displaying profile information and application pages
 - HTTP Session: Maintaining submitted profile information
-  
+
+
 5. How to Run the Application
    
 1. Download or clone this repository.
