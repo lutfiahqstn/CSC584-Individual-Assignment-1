@@ -45,18 +45,18 @@ The application consists of the following features:
 4. Technologies Used
 The following technologies and tools were used to develop this application:
 
-- HTML: Creating the personal profile form
-- CSS: Designing and styling the web pages
-- Java: Implementing application logic
-- Java Servlet: Processing form submissions and profile updates
-- JSP: Displaying profile information and application pages
-- HTTP Session: Maintaining submitted profile information
+   - HTML: Creating the personal profile form
+   - CSS: Designing and styling the web pages
+   - Java: Implementing application logic
+   - Java Servlet: Processing form submissions and profile updates
+   - JSP: Displaying profile information and application pages
+   - HTTP Session: Maintaining submitted profile information
 
 
 5. How to Run the Application
    
-1. Download or clone this repository.
-2. Open NetBeans IDE.
-3. Import or open the project.
-4. Clean and Build the project.
-5. Run the application.
+   1. Download or clone this repository.
+   2. Open NetBeans IDE.
+   3. Import or open the project.
+   4. Clean and Build the project.
+   5. Run the application.
