@@ -60,4 +60,3 @@ The following technologies and tools were used to develop this application:
 3. Import or open the project.
 4. Clean and Build the project.
 5. Run the application.
-6. Open the application in a web browser.
