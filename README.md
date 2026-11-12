@@ -2,10 +2,9 @@
 
 Personal Profile Web Application
 1. Project Overview
-The Personal Profile Web Application is a web-based application. The main purpose of this application is to allow users to submit, view and update their personal information through a simple and user-friendly interface. The application provides an organized way to manage personal profile information using HTML, CSS, Java Servlet and JavaServer Pages (JSP).
+   The Personal Profile Web Application is a web-based application. The main purpose of this application is to allow users to submit, view and update their          personal information through a simple and user-friendly interface. The application provides an organized way to manage personal profile information using         HTML, CSS, Java Servlet and JavaServer Pages (JSP).
 
-2. Application Features
-   
+2. Application Features  
 The application consists of the following features:
 
    a. Personal Profile Form
