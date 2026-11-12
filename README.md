@@ -7,40 +7,39 @@ The Personal Profile Web Application is a web-based application. The main purpos
 2. Application Features
 The application consists of the following features:
 
-a. Personal Profile Form
-- Allows users to enter their personal information.
-- Collects six fields: Full Name, Student ID, Programme, Email Address, Hobbies and Short Self-Introduction.
-- Includes Submit and Reset buttons.
-b. Dashboard
-- Provides a central navigation page.
-- Allows users to access My Profile and Edit Profile.
-- Displays a brief description of the application.
-c. My Profile
-- Displays previously submitted personal information.
-- Presents the information in an organized format.
-- Provides navigation back to the dashboard.
-d. Edit Profile
-- Allows users to modify their existing personal information.
-- Automatically displays previously submitted information in the form.
-- Allows users to update their profile.
+   a. Personal Profile Form
+   - Allows users to enter their personal information.
+   - Collects six fields: Full Name, Student ID, Programme, Email Address, Hobbies and Short Self-Introduction.
+   - Includes Submit and Reset buttons.
+   b. Dashboard
+   - Provides a central navigation page.
+   - Allows users to access My Profile and Edit Profile.
+   - Displays a brief description of the application.
+   c. My Profile
+   - Displays previously submitted personal information.
+   - Presents the information in an organized format.
+   - Provides navigation back to the dashboard.
+   d. Edit Profile
+   - Allows users to modify their existing personal information.
+   - Automatically displays previously submitted information in the form.
+   - Allows users to update their profile.
 
 3. Application Screenshots
 
-a. Personal Profile Form
-This page allows users to enter their personal information including Full Name, Student ID, Programme, Email Address, Hobbies and Short Self-Introduction.
+   a. Personal Profile Form
+   This page allows users to enter their personal information including Full Name, Student ID, Programme, Email Address, Hobbies and Short Self-Introduction.
 
 
-b. Dashboard
-The dashboard provides access to the main application functions including My Profile and Edit Profile.
+   b. Dashboard
+   The dashboard provides access to the main application functions including My Profile and Edit Profile.
 
 
-c. My Profile
-This page allows users to view their previously submitted personal information.
+   c. My Profile
+   This page allows users to view their previously submitted personal information.
 
 
-d. Edit Profile
-This page allows users to modify and update their existing personal information.
-
+   d. Edit Profile
+   This page allows users to modify and update their existing personal information.
 
 
 4. Technologies Used
