@@ -42,29 +42,7 @@ The application consists of the following features:
         
    - Allows users to update their profile.
 
-3. Application Screenshots
-
- a. Personal Profile Form
-   
- This page allows users to enter their personal information including Full Name, Student ID, Programme, Email Address, Hobbies and Short Self-Introduction.
-
- application screenshot/Dashboard.png
-
- b. Dashboard
-   
- The dashboard provides access to the main application functions including My Profile and Edit Profile.
-
-
- c. My Profile
-   
- This page allows users to view their previously submitted personal information.
-
- d. Edit Profile
-   
- This page allows users to modify and update their existing personal information.
-
-
-4. Technologies Used
+3. Technologies Used
    
 The following technologies and tools were used to develop this application:
 
@@ -76,7 +54,7 @@ The following technologies and tools were used to develop this application:
  - HTTP Session: Maintaining submitted profile information
 
 
-5. How to Run the Application
+4. How to Run the Application
    
   i. Download or clone this repository.
   
