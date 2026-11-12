@@ -1,0 +1,852 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    
+*/
+
+/* General Page */
+.form-page 
+{
+    margin: 0;
+    padding: 25px 15px;
+    min-height: 100vh;
+    background-color: #9da9b5;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Main Container */
+
+.form-page .profile-card 
+{
+    width: 100%;
+    max-width: 650px;
+    min-height: 635px;
+    margin: 0 auto;
+    padding: 0 35px;
+    background-color: #efefd0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Section */
+
+.form-page .page-header 
+{
+    width: calc(100% + 70px);
+    margin-left: -35px;
+    margin-right: -35px;
+    background-color: #102f55;
+    padding: 30px 33px 20px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.form-page .header-box 
+{
+    width: 100%;
+    border: 1px solid #9da9b5;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Header Title */
+.form-page .header-box h1 
+{
+    margin: 0;
+    padding: 10px 5px;
+    color: #f1f0d2;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* Welcome Message */
+.form-page .welcome-text 
+{
+    width: 100%;
+    border-top: 1px solid #9da9b5;
+    padding: 8px 5px;
+    color: #f1f0d2;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.form-page .welcome-text p 
+{
+    margin: 0;
+}
+
+/* Form Container */
+
+.form-page .form-container 
+{
+    width: calc(100% + 70px);
+    flex: 1;
+    min-height: 600px;
+    margin-left: -35px;
+    margin-right: -35px;
+    padding: 30px 0;
+    background-color: #efefd0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.form-page .form-container form 
+{
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Input Fields */
+
+.form-page .form-group 
+{
+    position: relative;
+    width: 100%;
+    margin-bottom: 17px;
+}
+
+/* Floating Labels */
+.form-page .form-group label 
+{
+    position: absolute;
+    top: -9px;
+    left: 17px;
+    z-index: 1;
+    width: 160px;
+    padding: 4px 12px;
+    background-color: #102f55;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 18px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.form-page .form-group label[for="studentId"] 
+{
+    min-width: 125px;
+}
+
+.form-page .form-group label[for="programme"] 
+{
+    min-width: 125px;
+}
+
+.form-page .form-group label[for="email"] 
+{
+    min-width: 125px;
+}
+
+.form-page .form-group label[for="introduction"] 
+{
+    min-width: 190px;
+}
+
+/* Input and Textarea */
+.form-page .form-group input,
+.form-page .form-group textarea 
+{
+    display: block;
+    width: 100%;
+    border: 1px solid #55584b;
+    border-radius: 0;
+    outline: none;
+    background-color: transparent;
+    color: #263b55;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+/* Normal Input */
+.form-page .form-group input 
+{
+    display: block;
+    width: 100%;
+    height: 76px;
+    padding: 0 20px;
+    line-height: normal;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+/* Introduction Textarea */
+.form-page .form-group textarea 
+{
+    display: block;
+    width: 100%;
+    height: 118px;
+    padding: 44px 20px 10px;
+    resize: vertical;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+/* Placeholder */
+.form-page .form-group input::placeholder,
+.form-page .form-group textarea::placeholder 
+{
+    color: #8290a3;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    opacity: 1;
+}
+
+/* Focus Effect */
+.form-page .form-group input:focus,
+.form-page .form-group textarea:focus 
+{
+    border-color: #102f55;
+    box-shadow: 0 0 3px rgba(16, 47, 85, 0.25);
+}
+
+/* Introduction Spacing */
+.form-page .introduction-group 
+{
+    margin-bottom: 17px;
+}
+
+/* Form Buttons */
+
+.form-page .button-group 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    margin: 25px auto 5px;
+}
+
+.form-page .button-group button 
+{
+    width: 150px;
+    height: 42px;
+    border: none;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Submit Button */
+.form-page .submit-btn 
+{
+    background-color: #20599a;
+    color: #ffffff;
+}
+
+.form-page .submit-btn:hover 
+{
+    background-color: #164477;
+}
+
+/* Reset Button */
+.form-page .reset-btn 
+{
+    background-color: #aeb4bc;
+    color: #111111;
+}
+
+.form-page .reset-btn:hover 
+{
+    background-color: #929aa4;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 600px) 
+{
+
+    .form-page 
+    {
+        padding: 15px 10px;
+    }
+
+    .form-page .page-header 
+    {
+        padding: 22px 20px;
+    }
+
+    .form-page .header-box h1 
+    {
+        font-size: 28px;
+    }
+
+    .form-page .form-container 
+    {
+        padding: 25px 22px;
+    }
+
+    .form-page .button-group 
+    {
+        gap: 15px;
+    }
+
+    .form-page .button-group button 
+    {
+        flex: 1;
+        width: auto;
+    }
+}
+
+/* JSP Display Profile */
+
+/* General Page */
+body:not(.form-page) 
+{
+    margin: 0;
+    padding: 25px 15px;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #9da9b5;
+    box-sizing: border-box;
+}
+
+/* Main Display Container */
+body:not(.form-page) .container 
+{
+    width: 100%;
+    max-width: 650px;
+    min-height: 635px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #efefd0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Display Header */
+body:not(.form-page) .form-header 
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 30px 33px 20px;
+    background-color: #102f55;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Inner Header Border */
+body:not(.form-page) .form-header::before 
+{
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 33px;
+    right: 33px;
+    bottom: 20px;
+    border: 1px solid #9da9b5;
+    pointer-events: none;
+}
+
+/* Header Title */
+body:not(.form-page) .form-header h1 
+{
+    margin: 0;
+    padding: 10px 5px;
+    color: #f1f0d2;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* Header Description */
+body:not(.form-page) .form-header p 
+{
+    margin: 0;
+    padding: 8px 5px;
+    border-top: 1px solid #9da9b5;
+    color: #f1f0d2;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+/* Profile Details Section */
+body:not(.form-page) .profile-details 
+{
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 23px 0 0;
+    box-sizing: border-box;
+}
+
+/* Individual Information Boxes */
+body:not(.form-page) .profile-item 
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 76px;
+    margin-bottom: 13px;
+    padding: 28px 15px 10px;
+    background-color: transparent;
+    border: 1px solid #55584b;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+/* Profile Field Labels */
+body:not(.form-page) .profile-item label 
+{
+    position: absolute;
+    top: 6px;
+    left: 15px;
+    display: inline-block;
+    min-width: 150px;
+    margin: 0;
+    padding: 4px 12px;
+    background-color: #102f55;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 18px;
+    box-sizing: border-box;
+}
+
+/* Submitted Information */
+body:not(.form-page) .profile-item p 
+{
+    width: 100%;
+    margin: 0;
+    color: #263b55;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+
+/* Introduction Box */
+body:not(.form-page) .introduction-item 
+{
+    display: block;
+    min-height: 118px;
+    padding: 35px 15px 12px;
+    box-sizing: border-box;
+}
+
+/* Preserve Line Breaks in Introduction */
+body:not(.form-page) .introduction 
+{
+    margin-bottom: 25px;
+}
+
+/* Back Button Section */
+body:not(.form-page) .button-group 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 22px auto 25px;
+}
+
+/* Back to Form Button */
+body:not(.form-page) .back-btn 
+{
+    display: inline-block;
+    min-width: 150px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #20599a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+body:not(.form-page) .back-btn:hover 
+{
+    background-color: #164477;
+}
+
+/* Responsive Display Page */
+@media screen and (max-width: 600px) 
+{
+    body:not(.form-page) 
+    {
+        padding: 15px 10px;
+    }
+
+    body:not(.form-page) .form-header 
+    {
+        padding: 20px 20px 18px;
+    }
+
+    body:not(.form-page) .form-header::before 
+    {
+        top: 22px;
+        left: 20px;
+        right: 20px;
+        bottom: 18px;
+    }
+    
+    body:not(.form-page) .form-header h1 
+    {
+        font-size: 28px;
+    }
+
+    body:not(.form-page) .profile-details 
+    {
+        width: calc(100% - 40px);
+    }
+
+    body:not(.form-page) .profile-item label 
+    {
+        min-width: 130px;
+    }
+}
+
+/* DASHBOARD */
+/* Dashboard Background */
+body.dashboard-page
+{
+    margin: 0;
+    padding: 25px 15px;
+    min-height: 100vh;
+    background-color: #9da9b5;
+    font-family: Arial, sans-serif;
+    color: #263b55;
+    box-sizing: border-box;
+}
+
+/* Dashboard Main Container */
+.dashboard-shell
+{
+    width: 100%;
+    max-width: 650px;
+    min-height: 635px;
+    margin: 0 auto;
+    background-color: #efefd0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+
+/* Dashboard Header */
+.dashboard-header
+{
+    width: 100%;
+    padding: 30px 33px 20px;
+    background-color: #102f55;
+    box-sizing: border-box;
+}
+
+/* Header Inner Border */
+.dashboard-header-inner
+{
+    width: 100%;
+    border: 1px solid #9da9b5;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Dashboard Title */
+.dashboard-header h1
+{
+    margin: 0;
+    padding: 10px 5px;
+    color: #f1f0d2;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* Dashboard Subtitle */
+.dashboard-header p
+{
+    margin: 0;
+    padding: 8px 5px;
+    border-top: 1px solid #9da9b5;
+    color: #f1f0d2;
+    font-size: 15px;
+}
+
+/* Dashboard Content */
+.dashboard-content
+{
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 30px 0 20px;
+    box-sizing: border-box;
+}
+
+/* Welcome Section */
+.dashboard-welcome
+{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.dashboard-welcome h2
+{
+    margin: 0 0 10px;
+    color: #102f55;
+    font-size: 23px;
+}
+
+.dashboard-welcome p
+{
+    margin: 0;
+    color: #66758a;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Dashboard Grid */
+.dashboard-grid
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+/* Dashboard Cards */
+.dashboard-card
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 185px;
+    padding: 18px;
+    border: 1px solid #c3c6ad;
+    border-left: 4px solid #102f55;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #263b55;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Card Hover */
+a.dashboard-card:hover
+{
+    transform: translateY(-3px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Card Heading */
+.dashboard-card h3
+{
+    margin: 0 0 8px;
+    color: #102f55;
+    font-size: 17px;
+}
+
+/* Card Description */
+.dashboard-card p
+{
+    margin: 0 0 12px;
+    color: #66758a;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* Card Link */
+.dashboard-card span
+{
+    margin-top: auto;
+    color: #20599a;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Application Information */
+.dashboard-information
+{
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0;
+    grid-column: 1 / -1 !important;
+    box-sizing: border-box;
+    margin-top: 25px;
+    padding: 15px 20px;
+}
+
+.dashboard-information h3
+{
+    margin: 0 0 8px;
+    color: #102f55;
+    font-size: 16px;
+}
+
+.dashboard-information p
+{
+    margin: 0;
+    color: #66758a;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* Responsive Dashboard */
+@media screen and (max-width: 600px)
+{
+    body.dashboard-page
+    {
+        padding: 15px 10px;
+    }
+
+    .dashboard-header
+    {
+        padding: 22px 20px;
+    }
+
+    .dashboard-header h1
+    {
+        font-size: 27px;
+    }
+
+    .dashboard-content
+    {
+        width: calc(100% - 40px);
+    }
+
+    .dashboard-grid
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .dashboard-card
+    {
+        min-height: 150px;
+    }
+}
+
+/* Edit Profile Cancel Button */
+.form-page .button-group .back-btn
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 42px;
+    border: none;
+    border-radius: 6px;
+    background-color: #aeb4bc;
+    color: #111111;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.form-page .button-group .back-btn:hover
+{
+    background-color: #929aa4;
+}
+
+/* Edit Profile Button on Display Page */
+body:not(.form-page) .edit-btn
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #20599a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+body:not(.form-page) .edit-btn:hover
+{
+    background-color: #164477;
+}
+
+/* Space Between Profile Action Buttons */
+body:not(.form-page) .button-group
+{
+    gap: 15px;
+}
+
+/* Edit Profile Button */
+body:not(.form-page) .edit-btn
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #20599a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+body:not(.form-page) .edit-btn:hover
+{
+    background-color: #164477;
+}
+
+/* Spacing Between Buttons */
+body:not(.form-page) .button-group
+{
+    gap: 15px;
+}
