@@ -77,8 +77,8 @@ The following technologies and tools were used to develop this application:
 
 5. How to Run the Application
    
-  1. Download or clone this repository.
-  2. Open NetBeans IDE.
-  3. Import or open the project.
-  4. Clean and Build the project.
-  5. Run the application.
+   1. Download or clone this repository.
+   2. Open NetBeans IDE.
+   3. Import or open the project.
+   4. Clean and Build the project.
+   5. Run the application.
