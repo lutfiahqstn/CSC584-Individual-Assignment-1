@@ -44,23 +44,23 @@ The application consists of the following features:
 
 3. Application Screenshots
 
-   a. Personal Profile Form
+ a. Personal Profile Form
    
-   This page allows users to enter their personal information including Full Name, Student ID, Programme, Email Address, Hobbies and Short Self-Introduction.
+ This page allows users to enter their personal information including Full Name, Student ID, Programme, Email Address, Hobbies and Short Self-Introduction.
 
 
-   b. Dashboard
+ b. Dashboard
    
-   The dashboard provides access to the main application functions including My Profile and Edit Profile.
+ The dashboard provides access to the main application functions including My Profile and Edit Profile.
 
 
-   c. My Profile
+ c. My Profile
    
-   This page allows users to view their previously submitted personal information.
+ This page allows users to view their previously submitted personal information.
 
-   d. Edit Profile
+ d. Edit Profile
    
-   This page allows users to modify and update their existing personal information.
+ This page allows users to modify and update their existing personal information.
 
 
 4. Technologies Used
@@ -77,8 +77,8 @@ The following technologies and tools were used to develop this application:
 
 5. How to Run the Application
    
-   1. Download or clone this repository.
-   2. Open NetBeans IDE.
-   3. Import or open the project.
-   4. Clean and Build the project.
-   5. Run the application.
+  i. Download or clone this repository.
+  ii. Open NetBeans IDE.
+  iii. Import or open the project.
+  iv. Clean and Build the project.
+  v. Run the application.
