@@ -48,6 +48,7 @@ The application consists of the following features:
    
  This page allows users to enter their personal information including Full Name, Student ID, Programme, Email Address, Hobbies and Short Self-Introduction.
 
+ application screenshot/Dashboard.png
 
  b. Dashboard
    
